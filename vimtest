@@ -1,0 +1,68 @@
+Modes
+Insert Mode -i
+Visual Mode -v
+Normal Mode -esc
+ESC/i (Toggle insert and normal mode) 
+i/a (insert/append to the end of the line)
+jkl (navigate)
+:q (quit)
+:q! (quit ignoring changes)
+vim (newfile)
+vim (file open)
+:set (set options)
+:! (commands to the terminal)
+:w (write changes)
+:wq (write changes and quit)
+:set number (activate line numbers)
+# left/down/up/right h/j/k/l (move by number of spaces/lines)
+:set relativenumber (set relative number)
+:set mouse=a (activate mouse)
+vi ~/.vimrc (vim configs)
+ctrl+u (undo)
+ctrl+r (redo)
+d (delete)
+v (visual mode for selecting)
+u (undo)
+p (paste)
+y (yank or copy)
+:colorscheme -tab (select colorschemes)
+dw (delete word)
+d2w (delete two or more words)
+e (jumps to the end of a word)
+I (beginning of a line)
+$ (goes to end of a line)
+d$ (delete until the end of the line)
+dd (delete entire line)
+3p (paste multiple times)
+cc (change line)
+Y (copy the rest of the line)
+R+letters (replace keys)
+b (delete words back)
+d2b (delete two or more words back) 
+0 (goes to the beginning of a line)
+yiw (yank or copy inner word)
+yi" (yank or copy inner quotation)
+t+key (jumps to the next occurence of the key) 
+gg (jumps to the beginning of a file)
+shift g (jumps to the end of a file)
+:5 (goto a line number)
+shift-v (selct line)
+ctrl-v (select column)
+== (indent)
+/Search (search the next term)
+zz (center)
+m+g (mark as a) *used as bookmark*
+m+a (mark as g)
+'a
+'g (goto bookmark)
+
+
+
+
+
+
+
+
+58:39 Vim Video from freecodecamp.org yt 
+
+1:30 Let vim do the typping yt
